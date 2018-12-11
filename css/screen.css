@@ -90,6 +90,9 @@ footer{
         width: 106px;
         height: 74px;
     }
+    #welcome-page{
+        display: flex;
+    }
     p{
         /* float: right; */
     }
