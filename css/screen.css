@@ -33,7 +33,7 @@ a:active{
     color: black;
 }
 a:visited{
-    color: #116060 /*#C03D3D*/;
+    color:white; /*#C03D3D*/;
 }
 nav ul{
     display: inline-flex;
