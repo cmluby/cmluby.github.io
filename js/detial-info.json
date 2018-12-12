@@ -1,0 +1,22 @@
+{
+    "Assembly":{
+        "title": "Assembly",
+        "desc" :"We at IMaKS are dedicated quality and efficiency. Here at IMaKS we do many industrial grade fabrications and assemblies. Some of which include sand blasting, tumble blasting, and welding. Contact us now and let us help you with your metal working needs."
+
+    },
+    "Fab":{
+        "title": "Fabrication",
+        "desc": "Placeholder. I'm a paragraph"
+
+    },
+    "Trailer":{
+        "title": "Trailers",
+        "desc":"We build trailers"
+
+    },
+    "Welding":{
+        "title":"Welding",
+        "desc":"We offer several forms of quality welding, such as mig welding and stick welding. Whether your needs are small or large, we've got you covered. Get a hold of us today and lets find solutions together!"
+
+    }
+}
