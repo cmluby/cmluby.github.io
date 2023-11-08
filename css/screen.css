@@ -19,7 +19,7 @@ html {
     color: #006120;
     border-bottom: 5px solid #006120;
     width: 100%;
-    padding-top: 25%;
+    padding-top: 35%;
     font-family: cursive;
 }
 
@@ -116,6 +116,10 @@ footer {
 
     #welcome-page {
         display: flex;
+    }
+
+    #site-header {
+        padding-top: 25%;
     }
 
 }
