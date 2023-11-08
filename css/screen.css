@@ -16,6 +16,7 @@ html {
 #site-header {
     font-size: 35px;
     text-align: center;
+    color: #006120;
     border-bottom: 5px solid #006120;
     width: 100%;
     padding-top: 25%;
@@ -79,7 +80,7 @@ h1 {
 }
 
 p {
-    font-size: 14pt;
+    font-size: 18pt;
     text-align: center;
     margin: 5px;
 }
@@ -117,7 +118,4 @@ footer {
         display: flex;
     }
 
-    p {
-        /* float: right; */
-    }
 }
