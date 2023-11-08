@@ -12,40 +12,40 @@ MENULINK.addEventListener('click', function (evt) {
     }
 });
 // Get Location from weather.json file
-function getData(LOCALE) {
-    if(LOCALE == "Home"){
+function getData(dayinDec) {
+    if(dayinDec == "Home"){
         document.getElementById("home-main").setAttribute("class","show");
         document.getElementById("detail-main").setAttribute("class","hide");
         return;
     }
     let URL = "js/detail-info.json";
     
-    console.log(LOCALE);
+    console.log(dayinDec);
      fetch(URL)
       .then(response => response.json())
       .then(function (data) {
        console.log('Json object from getData function:');
        console.log(data);
-       console.log(data[LOCALE+'']);
-       const locData = {}; // Create an object
-       locData['title'] = data[LOCALE].title;
-       locData['description'] = data[LOCALE].desc;
-    //    locData['state'] = data[LOCALE+''].State;
-    //    locData['geoposition'] = data[LOCALE+''].Latitude + ", " + data[LOCALE+''].Longitude;
-    //    locData['elevation'] =data[LOCALE+''].Elevation;
-       console.log(locData);
-    //    getWeather(locData, LOCALE);
-        buildPage(locData);
+       console.log(data[dayinDec+'']);
+       const dayData = {}; // Create an object
+       dayData['title'] = data[dayinDec].title;
+       dayData['description'] = data[dayinDec].desc;
+    //    dayData['state'] = data[dayinDec+''].State;
+    //    dayData['geoposition'] = data[dayinDec+''].Latitude + ", " + data[dayinDec+''].Longitude;
+    //    dayData['elevation'] =data[dayinDec+''].Elevation;
+       console.log(dayData);
+    //    getWeather(dayData, dayinDec);
+        buildPage(dayData);
        })
       .catch(error => console.log('There was a getCode error: ', error))
       
     } // end getCode function
-    function buildPage(locData){
+    function buildPage(dayData){
         var stateObj = { foo: "bar" };
-        document.getElementById("page-title").innerHTML = locData.title;
-        document.getElementById("page-descript").innerHTML = locData.description;
+        document.getElementById("page-title").innerHTML = dayData.title;
+        document.getElementById("page-descript").innerHTML = dayData.description;
         document.getElementById("home-main").setAttribute("class","hide");
         document.getElementById("detail-main").setAttribute("class","show");
-        history.pushState(stateObj,"", "#" +locData.title);
+        history.pushState(stateObj,"", "#" +dayData.title);
 
     }
