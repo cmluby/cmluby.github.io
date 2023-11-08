@@ -1,6 +1,6 @@
 @import url('/css/normalize.css');
 body {
-    background-image: url('christmas-back.jpg');
+    background-image: url('/images/christmas-back.jpg');
 }
 
 html {
