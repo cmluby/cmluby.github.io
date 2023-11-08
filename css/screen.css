@@ -94,9 +94,8 @@ footer{
     nav{
         position: initial;
     }
-    #site-header img{
-        width: 106px;
-        height: 74px;
+    #site-header{
+        padding-top: 25%;
     }
     #welcome-page{
         display: flex;
