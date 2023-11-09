@@ -49,7 +49,7 @@ function buildPage(dayData) {
     linkEl.innerhtml = "Click here to submit what you did!";
     linkEl.href = dayData.form;
      console.log(linkEl.href);
-    console.log(linkEl.style.visibility);
+    console.log(linkEl.innerHTML);
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
     history.pushState(stateObj, "", "#" + dayData.title);
