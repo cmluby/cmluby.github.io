@@ -1,22 +1,19 @@
 {
-    "dec01":{
+    "dec01": {
         "title": "December 1st",
-        "desc" :"Watch a Christmas Movie! Some ideas are Charlie Brown Christmas, The Polar Express, Frosty the Snowman, Rudolph the Red-Nose Reindeer, etc"
-
+        "desc": "Watch a Christmas Movie! Some ideas are Charlie Brown Christmas, The Polar Express, Frosty the Snowman, Rudolph the Red-Nose Reindeer, etc",
+        "form": "https://forms.microsoft.com/r/z2XJtLM8eF"
     },
-    "dec21":{
+    "dec21": {
         "title": "December 21st - Winter Solstice",
         "desc": "There are many religions and faiths. Let's learn about another faiths December holiday. Yuletide is a celabration that starts on the day of Winter Solstice which is the shortest day of the year and lasts 12 days.\nWhat activites/traditions do you have? Pick a new activity/tradition for this Holiday season."
-
     },
-    "Trailer":{
+    "Trailer": {
         "title": "Trailers",
-        "desc":"We build trailers"
-
+        "desc": "We build trailers"
     },
-    "Welding":{
-        "title":"Welding",
-        "desc":"We offer several forms of quality welding, such as mig welding and stick welding. Whether your needs are small or large, we've got you covered. Get a hold of us today and lets find solutions together!"
-
+    "Welding": {
+        "title": "Welding",
+        "desc": "We offer several forms of quality welding, such as mig welding and stick welding. Whether your needs are small or large, we've got you covered. Get a hold of us today and lets find solutions together!"
     }
 }
