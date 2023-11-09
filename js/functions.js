@@ -44,7 +44,8 @@ function buildPage(dayData) {
     var stateObj = { foo: "bar" };
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
-    document.getElementById("form-link").setAttribute("href", dayData.form);
+    var linkEl = document.getElementById("form-link");
+    linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
     history.pushState(stateObj, "", "#" + dayData.title);
