@@ -97,6 +97,13 @@ footer {
 
 }
 
+.form-link {
+    color: red;
+    font-size: 24pt;
+    text-align: center;
+    padding: 25pt;
+}
+
 /* Large screen rules */
 @media screen and (min-width: 720px) {
     img {
