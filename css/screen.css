@@ -1,6 +1,6 @@
 @import url('/css/normalize.css');
 
-#form-link {
+.formlink {
     color: red;
     font-size: 24pt;
     text-align: center;
