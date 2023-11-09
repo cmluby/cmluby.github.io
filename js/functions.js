@@ -44,7 +44,7 @@ function buildPage(dayData) {
     var stateObj = { foo: "bar" };
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
-    var linkEl = document.getElementById("form-link").innerhtml = "<a href=\"" + dayData.form + "\" id=\"form-link\">Click here to submit what you did!</a>";
+    document.getElementById("form-link").innerHTML = "<a href=\"" + dayData.form + "\" id=\"form-link\">Click here to submit what you did!</a>";
    
     //linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
