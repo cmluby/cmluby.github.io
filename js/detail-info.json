@@ -1,16 +1,18 @@
 {
     "dec01": {
         "title": "December 1st",
-        "desc": "Watch a Christmas Movie! Some ideas are Charlie Brown Christmas, The Polar Express, Frosty the Snowman, Rudolph the Red-Nose Reindeer, etc",
+        "desc": "Watch a Christmas Movie! Some ideas are Charlie Brown Christmas, The Polar Express, Frosty the Snowman, Rudolph the Red-Nose Reindeer, etc. If you live alone, don't watch it alone, invite someone to come watch the moview with you!",
         "formlink": "https://forms.microsoft.com/r/z2XJtLM8eF"
+    },
+    "dec8": {
+        "title": "December 8th",
+        "desc": "It's Friday again! Let's have another moview night (gotta pick a different movie). This time, however, make or buy a treat to share with others durung the movie. (Pause for thoughts) Great, now you what you're going to make, share that idea with someone else!",
+        "formlink": "Need new link"
     },
     "dec21": {
         "title": "December 21st - Winter Solstice",
-        "desc": "There are many religions and faiths. Let's learn about another faiths December holiday. Yuletide is a celabration that starts on the day of Winter Solstice which is the shortest day of the year and lasts 12 days.\nWhat activites/traditions do you have? Pick a new activity/tradition for this Holiday season."
-    },
-    "Trailer": {
-        "title": "Trailers",
-        "desc": "We build trailers"
+        "desc": "There are many religions and faiths. Let's learn about another faiths December holiday. Yuletide is a celabration that starts on the day of Winter Solstice which is the shortest day of the year and lasts 12 days.\nWhat activites/traditions do you have? Pick a new activity/tradition for this Holiday season. If you're feeling extra crafty, try making a Yule Log (they can make a nice table center piece).",
+        "formlink": "need new link"
     },
     "Welding": {
         "title": "Welding",
