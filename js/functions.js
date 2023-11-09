@@ -30,7 +30,7 @@ function getData(dayinDec) {
             const dayData = {}; // Create an object
             dayData['title'] = data[dayinDec].title;
             dayData['description'] = data[dayinDec].desc;
-            //    dayData['state'] = data[dayinDec+''].State;
+            dayData['form'] = data[dayinDec].form;
             //    dayData['geoposition'] = data[dayinDec+''].Latitude + ", " + data[dayinDec+''].Longitude;
             //    dayData['elevation'] =data[dayinDec+''].Elevation;
             console.log(dayData);
