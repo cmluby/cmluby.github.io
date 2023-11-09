@@ -45,8 +45,10 @@ function buildPage(dayData) {
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
     var linkEl = document.getElementById("form-link");
+   
     linkEl.innerhtml = "Click here to submit what you did!";
     linkEl.href = dayData.form;
+     console.log(linkEl.href);
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
     history.pushState(stateObj, "", "#" + dayData.title);
