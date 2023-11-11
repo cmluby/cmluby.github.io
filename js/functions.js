@@ -58,7 +58,9 @@ function loadPage() {
     var currentPage = window.location.href;
     console.log(currentPage)
     if (currentPage.includes("December")) {
-        var day = currentPage.substring(currentPage.length - 4, currentPage.length - 2);
+        var day = "dec" + currentPage.substring(currentPage.length - 4, currentPage.length - 2);
         console.log(day)
+
+        getData(day)
     }
 }
