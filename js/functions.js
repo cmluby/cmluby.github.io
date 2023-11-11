@@ -31,6 +31,7 @@ function getData(dayinDec) {
             dayData['title'] = data[dayinDec].title;
             dayData['description'] = data[dayinDec].desc;
             dayData['form'] = data[dayinDec].formlink;
+            dayData['image'] = data[dayinDec].pic;
             //    dayData['geoposition'] = data[dayinDec+''].Latitude + ", " + data[dayinDec+''].Longitude;
             //    dayData['elevation'] =data[dayinDec+''].Elevation;
             console.log(dayData);
@@ -45,7 +46,7 @@ function buildPage(dayData) {
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
     document.getElementById("form-link").innerHTML = "<a href=\"" + dayData.form + "\" id=\"form-link\">Click here to submit what you did!</a>";
-
+    document.getElementById("pageimg").src = dayData.pic;
     //linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
@@ -60,7 +61,6 @@ function loadPage() {
     if (currentPage.includes("December")) {
         var day = "dec" + currentPage.substring(currentPage.length - 4, currentPage.length - 2);
         console.log(day)
-
         getData(day)
     }
 }

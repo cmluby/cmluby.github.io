@@ -1,17 +1,38 @@
 {
     "dec01": {
         "title": "December 1st",
-        "desc": "Watch a Christmas Movie! Some ideas are Charlie Brown Christmas, The Polar Express, Frosty the Snowman, Rudolph the Red-Nose Reindeer, etc. If you live alone, don't watch it alone, invite someone to come watch the moview with you!",
-        "formlink": "https://forms.microsoft.com/r/z2XJtLM8eF"
+        "desc": "Watch a Christmas Movie! Some ideas are Charlie Brown Christmas, The Polar Express, Frosty the Snowman, Rudolph the Red-Nose Reindeer, etc. If you live alone, don't watch it alone, invite someone to come watch the movie with you!",
+        "formlink": "https://forms.microsoft.com/r/z2XJtLM8eF",
+        "pic": "/images/Rudolph.jpg"
     },
-    "dec8": {
+    "dec06": {
+        "title": "December 6th",
+        "desc": "History is a wonderful thing to learn. In December we learn about a lot of ancient history. But, what about some not so ancient history? For the next week, find photos of things in your life and share them with a friend.",
+        "formlink": "Need new link"
+    },
+    "dec07": {
+        "title": "December 7th",
+        "desc": "Other culters have different traditions this month. Today at sunset is when Hanukkah starts. It marks the rededication of the Temple of Kislev. The Menorah is one of the iconic symbols of Hanukkah. Research your ancestry and learn about one of the Holiday traditions of one of the cultures you are from.",
+        "formlink": "Need new link"
+    },
+    "dec08": {
         "title": "December 8th",
-        "desc": "It's Friday again! Let's have another moview night (gotta pick a different movie). This time, however, make or buy a treat to share with others durung the movie. (Pause for thoughts) Great, now you what you're going to make, share that idea with someone else!",
+        "desc": "It's Friday again! Let's have another movie night (got to pick a different movie). This time, however, make or buy a treat to share with others during the movie. (Pause for thoughts) Great, now you what you're going to make, share that idea with someone else!",
+        "formlink": "Need new link"
+    },
+    "dec13": {
+        "title": "December 13th",
+        "desc": "Remember last week when you where to collect photos for a week (you thought I forgot about them)? Well now it's time to share them to the whole family! Now, we aren't just going to share photos, create a document that lists the name of each photo and the story that goes with it. Within the form linked below is a link to a folder where you can upload the photos!",
+        "formlink": "Need new link"
+    },
+    "dec16": {
+        "title": "December 16th",
+        "desc": "It's the holiday season and everyone loves surgery treats. This time around let's make/decorate sugar cookies! Grab some friends and family and have a frosting party. Take lots of pictures, wouldn't want to forget the fun mess!",
         "formlink": "Need new link"
     },
     "dec21": {
-        "title": "December 21st - Winter Solstice",
-        "desc": "There are many religions and faiths. Let's learn about another faiths December holiday. Yuletide is a celabration that starts on the day of Winter Solstice which is the shortest day of the year and lasts 12 days.\nWhat activites/traditions do you have? Pick a new activity/tradition for this Holiday season. If you're feeling extra crafty, try making a Yule Log (they can make a nice table center piece).",
+        "title": "December 21st",
+        "desc": "There are many religions and faiths. Let's learn about another faiths December holiday. Yuletide is a celebration that starts on the day of Winter Solstice which is the shortest day of the year and lasts 12 days. Yuletide can also be referred to as Yule and different cultures have different names for it as well. For example, ancient Celtics called it Alban Arthuan (meaning Light of Arthur) and would involve collecting Mistletoe that was growing on Oak trees as it was believed to hold the soul of the tree.\nWhat activities/traditions do you have? Pick a new activity/tradition for this Holiday season. If you're feeling extra crafty, try making a Yule Log (they can make a nice table center piece).",
         "formlink": "need new link"
     },
     "Welding": {
