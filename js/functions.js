@@ -45,10 +45,20 @@ function buildPage(dayData) {
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
     document.getElementById("form-link").innerHTML = "<a href=\"" + dayData.form + "\" id=\"form-link\">Click here to submit what you did!</a>";
-   
+
     //linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
     history.pushState(stateObj, "", "#" + dayData.title);
 
+
+}
+
+function loadPage() {
+    var currentPage = window.location.href;
+    console.log(currentPage)
+    if (currentPage.contains("December")) {
+        var day = currentPage.substring(currentPage.length - 4, currentPage.length - 2);
+        console.log(day)
+    }
 }
