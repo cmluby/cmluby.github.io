@@ -46,8 +46,8 @@ function buildPage(dayData) {
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
     document.getElementById("form-link").innerHTML = "<a href=\"" + dayData.form + "\" id=\"form-linkdet\">Click here to submit what you did!</a>";
-document['#pageimg'].src = dayData.image
-    //document.getElementById("pageimg").setAttribute = ("src", dayData.image + '');
+    console.log(dayData.image)
+    document.getElementById("pageimg").src = dayData.image + '';
     //linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
@@ -58,10 +58,10 @@ document['#pageimg'].src = dayData.image
 
 function loadPage() {
     var currentPage = window.location.href;
-    
+
     if (currentPage.includes("December")) {
         var day = "dec" + currentPage.substring(currentPage.length - 4, currentPage.length - 2);
-        
+
         getData(day)
     }
 }
