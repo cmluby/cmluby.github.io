@@ -46,7 +46,7 @@ function buildPage(dayData) {
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
     document.getElementById("form-link").innerHTML = "<a href=\"" + dayData.form + "\" id=\"form-linkdet\">Click here to submit what you did!</a>";
-    document.getElementById("pageimg").setAttribute = ("src", dayData.pic);
+    document.getElementById("pageimg").setAttribute = ("src", dayData.pic + '');
     //linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
     document.getElementById("detail-main").setAttribute("class", "show");
