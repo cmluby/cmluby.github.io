@@ -6,6 +6,7 @@
     text-align: center;
     padding: 25pt;
 }
+
 #form-linkdet {
     color: red;
     font-size: 24pt;
@@ -13,17 +14,17 @@
     padding: 25pt;
 }
 
-#pageimg{
+#pageimg {
     flex: 50%;
     width: 50%;
     height: 50%;
 }
 
-#page-descript{
+#page-descript {
     flex: 50%;
 }
 
-#detail-contents{
+#detail-contents {
     display: flex;
 }
 
@@ -149,10 +150,17 @@ footer {
     #site-header {
         padding-top: 25%;
     }
-    #pageimg{
+
+    #pageimg {
         flex: 25%;
         width: 25%;
         height: 25%;
+    }
+
+    #form-linkdet {
+        flex: 50%;
+        text-align: right;
+        padding: 25pt;
     }
 
 }
