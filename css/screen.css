@@ -157,10 +157,4 @@ footer {
         height: 25%;
     }
 
-    #form-link {
-        display: flex;
-        flex: 50%;
-        text-align: right;
-    }
-
 }
