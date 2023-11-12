@@ -157,10 +157,10 @@ footer {
         height: 25%;
     }
 
-    #form-linkdet {
+    #form-link {
+        display: flex;
         flex: 50%;
         text-align: right;
-        padding: 25pt;
     }
 
 }
