@@ -20,23 +20,23 @@ function getData(dayinDec) {
     }
     let URL = "js/detail-info.json";
 
-    console.log(dayinDec);
+    //console.log(dayinDec);
     fetch(URL)
         .then(response => response.json())
         .then(function (data) {
             //console.log('Json object from getData function:');
             //console.log(data);
-            console.log(data[dayinDec]);
-            //const dayData = {}; // Create an object
-            //dayData['title'] = data[dayinDec].title;
-            //dayData['description'] = data[dayinDec].desc;
-            //dayData['form'] = data[dayinDec].formlink;
-            //dayData['image'] = data[dayinDec].pic;
+            //console.log(data[dayinDec + '']);
+            const dayData = {}; // Create an object
+            dayData['title'] = data[dayinDec].title;
+            dayData['description'] = data[dayinDec].desc;
+            dayData['form'] = data[dayinDec].formlink;
+            dayData['image'] = data[dayinDec].pic;
             //    dayData['geoposition'] = data[dayinDec+''].Latitude + ", " + data[dayinDec+''].Longitude;
             //    dayData['elevation'] =data[dayinDec+''].Elevation;
             //console.log(dayData);
             //    getWeather(dayData, dayinDec);
-            buildPage(data[dayinDec]);
+            buildPage(dayData);
         })
         .catch(error => console.log('There was a getCode error: ', error))
 
