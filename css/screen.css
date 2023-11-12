@@ -14,7 +14,17 @@
 }
 
 #pageimg{
-    size: 50%;
+    flex: 50%;
+    /* width: 50%;
+    height: 50%; */
+}
+
+#page-descript{
+    flex: 50%;
+}
+
+#detail-contents{
+    display: flex;
 }
 
 html {
