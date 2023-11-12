@@ -26,7 +26,7 @@ function getData(dayinDec) {
         .then(function (data) {
             //console.log('Json object from getData function:');
             //console.log(data);
-            //console.log(data[dayinDec + '']);
+            console.log(data[dayinDec]);
             //const dayData = {}; // Create an object
             //dayData['title'] = data[dayinDec].title;
             //dayData['description'] = data[dayinDec].desc;
@@ -36,7 +36,7 @@ function getData(dayinDec) {
             //    dayData['elevation'] =data[dayinDec+''].Elevation;
             //console.log(dayData);
             //    getWeather(dayData, dayinDec);
-            buildPage(data[dayinDec + '']);
+            buildPage(data[dayinDec]);
         })
         .catch(error => console.log('There was a getCode error: ', error))
 
