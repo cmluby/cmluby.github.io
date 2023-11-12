@@ -13,6 +13,10 @@
     padding: 25pt;
 }
 
+#pageimg{
+    size: 50%;
+}
+
 html {
     box-sizing: border-box;
     margin: 5px;
