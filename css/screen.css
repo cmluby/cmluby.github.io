@@ -149,5 +149,10 @@ footer {
     #site-header {
         padding-top: 25%;
     }
+    #pageimg{
+        flex: 50%;
+        width: 25%;
+        height: 25%;
+    }
 
 }
