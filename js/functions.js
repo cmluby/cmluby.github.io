@@ -5,7 +5,6 @@ MENULINK.addEventListener('click', function (evt) {
     // Get the data values for state and city
     // See https://javascript.info/bubbling-and-capturing for evt.target explanation
     let descriptPage = evt.target.dataset['page'];
-    console.log(descriptPage);
     if (descriptPage != null) {
         evt.preventDefault();
         getData(descriptPage);
@@ -46,7 +45,7 @@ function buildPage(dayData) {
     document.getElementById("page-title").innerHTML = dayData.title;
     document.getElementById("page-descript").innerHTML = dayData.description;
     document.getElementById("form-link").innerHTML = "<a href=\"" + dayData.form + "\" id=\"form-linkdet\">Click here to submit what you did!</a>";
-    console.log(dayData.image)
+
     document.getElementById("pageimg").src = dayData.image + '';
     //linkEl.href = dayData.form;
     document.getElementById("home-main").setAttribute("class", "hide");
